@@ -1,0 +1,146 @@
+.wrapper {
+  padding: 30px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .for-col {
+  padding: 50px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.wrapper .for-col .for-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.wrapper .for-col .for-form {
+  width: 60%;
+  margin: auto;
+}
+
+.wrapper .for-col .forlabel {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.wrapper .for-col .for-input {
+  width: 100%;
+  padding: 10px 2px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eeeeee;
+}
+.wrapper .for-col .for-input:focus,
+.wrapper .for-col .for-input:hover {
+  box-shadow: none;
+  outline: none;
+  background-color: rgb(205, 231, 235);
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid black; */
+}
+.wrapper .for-col .btndiv {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wrapper .for-col .btndiv .for-btn {
+  text-align: center;
+  padding: 10px 30px;
+  background-color: blue;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid yellow;
+}
+
+.wrapper .for-col .btndiv .for-btn:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: black;
+}
+.for-error {
+  color: red;
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper .for-col .for-title {
+    font-size: 2rem;
+  }
+  .wrapper .for-col .for-form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper .for-col {
+    padding: 40px;
+  }
+  .wrapper .for-col .for-form {
+    width: 90%;
+  }
+  .wrapper .for-col .for-title {
+    font-size: 1.9rem;
+  }
+  .wrapper .for-col .forlabel {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper .for-col {
+    padding: 30px;
+  }
+  .wrapper .for-col .for-form {
+    width: 100%;
+  }
+  .wrapper .for-col .for-title {
+    font-size: 1.5rem;
+  }
+  .wrapper .for-col .forlabel {
+    font-size: 1.1rem;
+  }
+  .for-error {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .for-error {
+    font-size: 11px;
+  }
+  .wrapper .formtitle {
+    font-size: 1.5rem;
+  }
+  .wrapper .data {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .wrapper .for-col {
+    padding: 25px;
+  }
+
+  .wrapper .for-col .for-title {
+    font-size: 1.4rem;
+  }
+  .wrapper .for-col .forlabel {
+    font-size: 1rem;
+  }
+  .for-error {
+    font-size: 10px;
+  }
+}
