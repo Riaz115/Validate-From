@@ -10,7 +10,7 @@
   padding: 50px;
   border: 1px solid grey;
   border-radius: 10px;
-    background-color: #eeeeee;
+    
 }
 
 .wrapper .for-col .for-title {
@@ -39,6 +39,7 @@
   border-radius: 5px;
   border: none;
   background: transparent;
+  background-color: #eeeeee;
   
 }
 .wrapper .for-col .for-input:focus,
