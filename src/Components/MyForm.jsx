@@ -56,12 +56,17 @@ function MyForm() {
           {showFrom ? (
             <Col
               lg={{ span: 8, offset: 2 }}
-              // md={{ span: 10, offset: 1 }}
               className=" for-col
           "
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
             >
               <Form onSubmit={HandleSubmit}>
-                <div className="for-form">
+                <div
+                  className="for-form"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
                   <div>
                     <h1 className="for-title">Serani-Tech-House</h1>
                   </div>
@@ -138,6 +143,8 @@ function MyForm() {
                 <div
                   className="text-center
           "
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
                 >
                   <h1 className="formtitle">Form SubmittedData</h1>
                   <h5 className="data">UserName : {submitedData.name}</h5>
